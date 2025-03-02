@@ -10,7 +10,7 @@
 
 <br>
 <div align="center">
-<img src="imgs/Framework.png" width="1000px">
+<img src="imgs/framework.pdf" width="1000px">
 </div>
 <br>
 To fulfill the potential great value of unstructured documents, it is
