@@ -1,0 +1,2677 @@
+{
+    "fin": {
+        "1": {
+            "Company Name": {
+                "f1": 0.4550595238095239,
+                "precision": 0.4677083333333334,
+                "recall": 0.4494791666666667,
+                "token": 3265
+            },
+            "Founding Year": {
+                "f1": 0.9583333333333334,
+                "precision": 0.9583333333333334,
+                "recall": 0.9583333333333334,
+                "token": 2115
+            },
+            "Headquarters Location": {
+                "f1": 0.7005602240896358,
+                "precision": 0.6924019607843137,
+                "recall": 0.7156862745098039,
+                "token": 2144
+            },
+            "Industry Type": {
+                "f1": 0.40365722865722853,
+                "precision": 0.4017589017589017,
+                "recall": 0.4122440622440621,
+                "token": 3740
+            },
+            "Product/Service Type": {
+                "f1": 0.21702056467118525,
+                "precision": 0.30017372424942274,
+                "recall": 0.2132021971816224,
+                "token": 3473
+            },
+            "Customer Type": {
+                "f1": 0.22004720644662012,
+                "precision": 0.22241971856796652,
+                "recall": 0.2614924191454804,
+                "token": 3569
+            },
+            "Tax Policy": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "token": 2810
+            },
+            "Branches Office": {
+                "f1": 0.56,
+                "precision": 0.56,
+                "recall": 0.56,
+                "token": 2632
+            },
+            "Brand Number": {
+                "f1": 0.35,
+                "precision": 0.35,
+                "recall": 0.35,
+                "token": 5113
+            },
+            "Changed Name": {
+                "f1": 0.95,
+                "precision": 0.95,
+                "recall": 0.95,
+                "token": 2536
+            },
+            "Segments Number": {
+                "f1": 0.65,
+                "precision": 0.65,
+                "recall": 0.65,
+                "token": 2530
+            }
+        },
+        "2": {
+            "Company Name": {
+                "f1": 0.5984848484848485,
+                "precision": 0.615909090909091,
+                "recall": 0.5962121212121212,
+                "token": 6488
+            },
+            "Founding Year": {
+                "f1": 0.9523809523809523,
+                "precision": 0.9523809523809523,
+                "recall": 0.9523809523809523,
+                "token": 4819
+            },
+            "Headquarters Location": {
+                "f1": 0.824384236453202,
+                "precision": 0.8180076628352491,
+                "recall": 0.8362068965517241,
+                "token": 4962
+            },
+            "Industry Type": {
+                "f1": 0.38325765143946955,
+                "precision": 0.36984126984126975,
+                "recall": 0.41999212908303807,
+                "token": 7406
+            },
+            "Product/Service Type": {
+                "f1": 0.2810034314102078,
+                "precision": 0.31952422480428766,
+                "recall": 0.30755252693064966,
+                "token": 7721
+            },
+            "Customer Type": {
+                "f1": 0.2408934756058756,
+                "precision": 0.24712031890187358,
+                "recall": 0.2884434851465212,
+                "token": 7204
+            },
+            "Tax Policy": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "token": 6650
+            },
+            "Branches Office": {
+                "f1": 0.59,
+                "precision": 0.59,
+                "recall": 0.59,
+                "token": 5912
+            },
+            "Brand Number": {
+                "f1": 0.37,
+                "precision": 0.37,
+                "recall": 0.37,
+                "token": 9641
+            },
+            "Changed Name": {
+                "f1": 0.99,
+                "precision": 0.99,
+                "recall": 0.99,
+                "token": 5458
+            },
+            "Segments Number": {
+                "f1": 0.72,
+                "precision": 0.72,
+                "recall": 0.72,
+                "token": 5623
+            }
+        },
+        "3": {
+            "Company Name": {
+                "f1": 0.6518070818070817,
+                "precision": 0.6612820512820513,
+                "recall": 0.6553846153846152,
+                "token": 9957
+            },
+            "Founding Year": {
+                "f1": 0.9861111111111112,
+                "precision": 0.9861111111111112,
+                "recall": 0.9861111111111112,
+                "token": 8893
+            },
+            "Headquarters Location": {
+                "f1": 0.80137987012987,
+                "precision": 0.7941287878787878,
+                "recall": 0.8149621212121212,
+                "token": 9109
+            },
+            "Industry Type": {
+                "f1": 0.36934731934731924,
+                "precision": 0.35735615079365074,
+                "recall": 0.40257575757575753,
+                "token": 11287
+            },
+            "Product/Service Type": {
+                "f1": 0.2674567462222112,
+                "precision": 0.28918788671692475,
+                "recall": 0.32387686532053067,
+                "token": 11900
+            },
+            "Customer Type": {
+                "f1": 0.2462769165829366,
+                "precision": 0.24462181730951085,
+                "recall": 0.3062602033496641,
+                "token": 11318
+            },
+            "Tax Policy": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "token": 10851
+            },
+            "Branches Office": {
+                "f1": 0.63,
+                "precision": 0.63,
+                "recall": 0.63,
+                "token": 9940
+            },
+            "Brand Number": {
+                "f1": 0.34,
+                "precision": 0.34,
+                "recall": 0.34,
+                "token": 13813
+            },
+            "Changed Name": {
+                "f1": 0.99,
+                "precision": 0.99,
+                "recall": 0.99,
+                "token": 9051
+            },
+            "Segments Number": {
+                "f1": 0.78,
+                "precision": 0.78,
+                "recall": 0.78,
+                "token": 10311
+            }
+        },
+        "4": {
+            "Company Name": {
+                "f1": 0.7473080223080221,
+                "precision": 0.7427927927927929,
+                "recall": 0.7644144144144145,
+                "token": 13833
+            },
+            "Founding Year": {
+                "f1": 0.9764705882352941,
+                "precision": 0.9764705882352941,
+                "recall": 0.9764705882352941,
+                "token": 12785
+            },
+            "Headquarters Location": {
+                "f1": 0.7720942140296977,
+                "precision": 0.7670250896057347,
+                "recall": 0.7813620071684587,
+                "token": 13864
+            },
+            "Industry Type": {
+                "f1": 0.34056799427678536,
+                "precision": 0.33153190542353095,
+                "recall": 0.3782717282717283,
+                "token": 15857
+            },
+            "Product/Service Type": {
+                "f1": 0.2849077036639244,
+                "precision": 0.31240816970817203,
+                "recall": 0.3621919730529658,
+                "token": 15931
+            },
+            "Customer Type": {
+                "f1": 0.28158489035796647,
+                "precision": 0.2720159639362675,
+                "recall": 0.3453862129156247,
+                "token": 15644
+            },
+            "Tax Policy": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "token": 15140
+            },
+            "Branches Office": {
+                "f1": 0.67,
+                "precision": 0.67,
+                "recall": 0.67,
+                "token": 14346
+            },
+            "Brand Number": {
+                "f1": 0.39,
+                "precision": 0.39,
+                "recall": 0.39,
+                "token": 17007
+            },
+            "Changed Name": {
+                "f1": 0.99,
+                "precision": 0.99,
+                "recall": 0.99,
+                "token": 13053
+            },
+            "Segments Number": {
+                "f1": 0.78,
+                "precision": 0.78,
+                "recall": 0.78,
+                "token": 14654
+            }
+        },
+        "5": {
+            "Company Name": {
+                "f1": 0.7826466916354555,
+                "precision": 0.7795880149812735,
+                "recall": 0.7994382022471909,
+                "token": 17349
+            },
+            "Founding Year": {
+                "f1": 0.9662921348314607,
+                "precision": 0.9662921348314607,
+                "recall": 0.9662921348314607,
+                "token": 16047
+            },
+            "Headquarters Location": {
+                "f1": 0.7780648429584598,
+                "precision": 0.7730496453900709,
+                "recall": 0.7872340425531913,
+                "token": 18210
+            },
+            "Industry Type": {
+                "f1": 0.35362069233036963,
+                "precision": 0.3488393923877794,
+                "recall": 0.3790974258716194,
+                "token": 19858
+            },
+            "Product/Service Type": {
+                "f1": 0.30095164880379377,
+                "precision": 0.326965474356262,
+                "recall": 0.3802128617504221,
+                "token": 19665
+            },
+            "Customer Type": {
+                "f1": 0.27445019407925175,
+                "precision": 0.27118593159275467,
+                "recall": 0.3473082555733337,
+                "token": 19605
+            },
+            "Tax Policy": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "token": 19268
+            },
+            "Branches Office": {
+                "f1": 0.72,
+                "precision": 0.72,
+                "recall": 0.72,
+                "token": 18851
+            },
+            "Brand Number": {
+                "f1": 0.37,
+                "precision": 0.37,
+                "recall": 0.37,
+                "token": 20383
+            },
+            "Changed Name": {
+                "f1": 0.99,
+                "precision": 0.99,
+                "recall": 0.99,
+                "token": 17434
+            },
+            "Segments Number": {
+                "f1": 0.8,
+                "precision": 0.8,
+                "recall": 0.8,
+                "token": 18735
+            }
+        },
+        "6": {
+            "Company Name": {
+                "f1": 0.7835357952704891,
+                "precision": 0.7845238095238096,
+                "recall": 0.7931972789115647,
+                "token": 20284
+            },
+            "Founding Year": {
+                "f1": 0.967391304347826,
+                "precision": 0.967391304347826,
+                "recall": 0.967391304347826,
+                "token": 20132
+            },
+            "Headquarters Location": {
+                "f1": 0.6964037698412696,
+                "precision": 0.6906249999999998,
+                "recall": 0.7071180555555555,
+                "token": 20979
+            },
+            "Industry Type": {
+                "f1": 0.3674772691077038,
+                "precision": 0.3700741890959282,
+                "recall": 0.3890151515151514,
+                "token": 22236
+            },
+            "Product/Service Type": {
+                "f1": 0.28613448092265875,
+                "precision": 0.3120243838668251,
+                "recall": 0.37154821179120306,
+                "token": 22224
+            },
+            "Customer Type": {
+                "f1": 0.26917377393250963,
+                "precision": 0.27521756108325457,
+                "recall": 0.322399025367435,
+                "token": 22098
+            },
+            "Tax Policy": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "token": 21840
+            },
+            "Branches Office": {
+                "f1": 0.64,
+                "precision": 0.64,
+                "recall": 0.64,
+                "token": 21448
+            },
+            "Brand Number": {
+                "f1": 0.39,
+                "precision": 0.39,
+                "recall": 0.39,
+                "token": 22645
+            },
+            "Changed Name": {
+                "f1": 0.98,
+                "precision": 0.98,
+                "recall": 0.98,
+                "token": 20480
+            },
+            "Segments Number": {
+                "f1": 0.77,
+                "precision": 0.77,
+                "recall": 0.77,
+                "token": 21480
+            }
+        },
+        "7": {
+            "Company Name": {
+                "f1": 0.8056825396825397,
+                "precision": 0.809,
+                "recall": 0.8131666666666666,
+                "token": 22772
+            },
+            "Founding Year": {
+                "f1": 0.967741935483871,
+                "precision": 0.967741935483871,
+                "recall": 0.967741935483871,
+                "token": 22698
+            },
+            "Headquarters Location": {
+                "f1": 0.6946676587301585,
+                "precision": 0.6880208333333332,
+                "recall": 0.7071180555555555,
+                "token": 22875
+            },
+            "Industry Type": {
+                "f1": 0.3315153186120927,
+                "precision": 0.33501450759515267,
+                "recall": 0.34898989898989896,
+                "token": 23787
+            },
+            "Product/Service Type": {
+                "f1": 0.36219311578363106,
+                "precision": 0.416530929873406,
+                "recall": 0.4402941186544648,
+                "token": 23708
+            },
+            "Customer Type": {
+                "f1": 0.27096069236646936,
+                "precision": 0.26455270322218294,
+                "recall": 0.3323925614826351,
+                "token": 23622
+            },
+            "Tax Policy": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "token": 23422
+            },
+            "Branches Office": {
+                "f1": 0.64,
+                "precision": 0.64,
+                "recall": 0.64,
+                "token": 23281
+            },
+            "Brand Number": {
+                "f1": 0.37,
+                "precision": 0.37,
+                "recall": 0.37,
+                "token": 24073
+            },
+            "Changed Name": {
+                "f1": 0.99,
+                "precision": 0.99,
+                "recall": 0.99,
+                "token": 22412
+            },
+            "Segments Number": {
+                "f1": 0.76,
+                "precision": 0.76,
+                "recall": 0.76,
+                "token": 23140
+            }
+        },
+        "8": {
+            "Company Name": {
+                "f1": 0.813936507936508,
+                "precision": 0.8103333333333335,
+                "recall": 0.8273333333333334,
+                "token": 24069
+            },
+            "Founding Year": {
+                "f1": 0.967741935483871,
+                "precision": 0.967741935483871,
+                "recall": 0.967741935483871,
+                "token": 23956
+            },
+            "Headquarters Location": {
+                "f1": 0.7288690476190477,
+                "precision": 0.7230902777777777,
+                "recall": 0.7395833333333334,
+                "token": 24091
+            },
+            "Industry Type": {
+                "f1": 0.3589067443906153,
+                "precision": 0.3672469704727769,
+                "recall": 0.3767676767676767,
+                "token": 24569
+            },
+            "Product/Service Type": {
+                "f1": 0.37312233483098145,
+                "precision": 0.4308724658236106,
+                "recall": 0.4292356226071089,
+                "token": 24759
+            },
+            "Customer Type": {
+                "f1": 0.2993951090805261,
+                "precision": 0.29905512906526627,
+                "recall": 0.3683210255765181,
+                "token": 24567
+            },
+            "Tax Policy": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "token": 24364
+            },
+            "Branches Office": {
+                "f1": 0.66,
+                "precision": 0.66,
+                "recall": 0.66,
+                "token": 24454
+            },
+            "Brand Number": {
+                "f1": 0.39,
+                "precision": 0.39,
+                "recall": 0.39,
+                "token": 25024
+            },
+            "Changed Name": {
+                "f1": 0.99,
+                "precision": 0.99,
+                "recall": 0.99,
+                "token": 23865
+            },
+            "Segments Number": {
+                "f1": 0.79,
+                "precision": 0.79,
+                "recall": 0.79,
+                "token": 24542
+            }
+        },
+        "9": {
+            "Company Name": {
+                "f1": 0.820468253968254,
+                "precision": 0.8190000000000001,
+                "recall": 0.8340000000000001,
+                "token": 24810
+            },
+            "Founding Year": {
+                "f1": 0.9680851063829787,
+                "precision": 0.9680851063829787,
+                "recall": 0.9680851063829787,
+                "token": 24681
+            },
+            "Headquarters Location": {
+                "f1": 0.7297371031746032,
+                "precision": 0.7239583333333334,
+                "recall": 0.7404513888888888,
+                "token": 24770
+            },
+            "Industry Type": {
+                "f1": 0.31357303515198237,
+                "precision": 0.30853801169590633,
+                "recall": 0.331993620414673,
+                "token": 24971
+            },
+            "Product/Service Type": {
+                "f1": 0.368166282945339,
+                "precision": 0.4121446316498594,
+                "recall": 0.43336813751287323,
+                "token": 25123
+            },
+            "Customer Type": {
+                "f1": 0.28772614381199374,
+                "precision": 0.28124246797377855,
+                "recall": 0.3522335264719718,
+                "token": 24968
+            },
+            "Tax Policy": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "token": 24988
+            },
+            "Branches Office": {
+                "f1": 0.64,
+                "precision": 0.64,
+                "recall": 0.64,
+                "token": 24940
+            },
+            "Brand Number": {
+                "f1": 0.37,
+                "precision": 0.37,
+                "recall": 0.37,
+                "token": 25476
+            },
+            "Changed Name": {
+                "f1": 0.99,
+                "precision": 0.99,
+                "recall": 0.99,
+                "token": 24768
+            },
+            "Segments Number": {
+                "f1": 0.78,
+                "precision": 0.78,
+                "recall": 0.78,
+                "token": 25010
+            }
+        }
+    },
+
+    "legal": {
+        "1": {
+            "judge_name": {
+                "f1": 0.6313131313131309,
+                "precision": 0.5016835016835017,
+                "recall": 0.9191919191919192,
+                "token": 13242
+            },
+            "plaintiff": {
+                "f1": 0.053968253968253964,
+                "precision": 0.06000918273645546,
+                "recall": 0.06551226551226551,
+                "token": 8216
+            },
+            "defendant": {
+                "f1": 0.038195209222346926,
+                "precision": 0.06922774119891287,
+                "recall": 0.03855218855218856,
+                "token": 7956
+            },
+            "hearing_year": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "token": 9520
+            },
+            "judgment_year": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "token": 11867
+            },
+            "case_type": {
+                "f1": 0.8535353535353535,
+                "precision": 0.8535353535353535,
+                "recall": 0.8535353535353535,
+                "token": 10775
+            },
+            "verdict": {
+                "f1": 0.47474747474747475,
+                "precision": 0.47474747474747475,
+                "recall": 0.47474747474747475,
+                "token": 6624
+            },
+            "counsel_for_applicant": {
+                "f1": 0.21201814058956917,
+                "precision": 0.2213203463203463,
+                "recall": 0.20773809523809525,
+                "token": 6448
+            },
+            "counsel_for_respondent": {
+                "f1": 0.7099541021227769,
+                "precision": 0.7283406352683461,
+                "recall": 0.7063253012048194,
+                "token": 12311
+            },
+            "nationality_for_applicant": {
+                "f1": 0.6,
+                "precision": 0.5901639344262295,
+                "recall": 0.639344262295082,
+                "token": 8787
+            },
+            "hearing_location": {
+                "f1": 0.03125,
+                "precision": 0.03125,
+                "recall": 0.03125,
+                "token": 12037
+            },
+            "evidence": {
+                "f1": 0.3838383838383838,
+                "precision": 0.3838383838383838,
+                "recall": 0.3838383838383838,
+                "token": 4841
+            },
+            "first_judge": {
+                "f1": 0.5555555555555556,
+                "precision": 0.5555555555555556,
+                "recall": 0.5555555555555556,
+                "token": 8807
+            }
+        },
+        "2": {
+            "judge_name": {
+                "f1": 0.6279461279461275,
+                "precision": 0.4915824915824917,
+                "recall": 0.9393939393939394,
+                "token": 22773
+            },
+            "plaintiff": {
+                "f1": 0.0862914862914863,
+                "precision": 0.0856902356902357,
+                "recall": 0.10339105339105337,
+                "token": 15851
+            },
+            "defendant": {
+                "f1": 0.08792602025841864,
+                "precision": 0.1257215007215007,
+                "recall": 0.08257575757575758,
+                "token": 14214
+            },
+            "hearing_year": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "token": 16947
+            },
+            "judgment_year": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "token": 17947
+            },
+            "case_type": {
+                "f1": 0.8939393939393939,
+                "precision": 0.8939393939393939,
+                "recall": 0.8939393939393939,
+                "token": 20394
+            },
+            "verdict": {
+                "f1": 0.5555555555555556,
+                "precision": 0.5555555555555556,
+                "recall": 0.5555555555555556,
+                "token": 13203
+            },
+            "counsel_for_applicant": {
+                "f1": 0.3822562358276643,
+                "precision": 0.4088203463203463,
+                "recall": 0.3720238095238095,
+                "token": 12238
+            },
+            "counsel_for_respondent": {
+                "f1": 0.812679288582903,
+                "precision": 0.8290434465133261,
+                "recall": 0.807128514056225,
+                "token": 17581
+            },
+            "nationality_for_applicant": {
+                "f1": 0.7049180327868853,
+                "precision": 0.6926229508196722,
+                "recall": 0.7540983606557377,
+                "token": 16465
+            },
+            "hearing_location": {
+                "f1": 0.09090909090909091,
+                "precision": 0.09090909090909091,
+                "recall": 0.09090909090909091,
+                "token": 20932
+            },
+            "evidence": {
+                "f1": 0.47474747474747475,
+                "precision": 0.47474747474747475,
+                "recall": 0.47474747474747475,
+                "token": 10037
+            },
+            "first_judge": {
+                "f1": 0.4444444444444444,
+                "precision": 0.4444444444444444,
+                "recall": 0.4444444444444444,
+                "token": 16614
+            }
+        },
+        "3": {
+            "judge_name": {
+                "f1": 0.6632996632996627,
+                "precision": 0.5235690235690238,
+                "recall": 0.9595959595959596,
+                "token": 32354
+            },
+            "plaintiff": {
+                "f1": 0.14689754689754692,
+                "precision": 0.13754208754208752,
+                "recall": 0.17929292929292928,
+                "token": 22101
+            },
+            "defendant": {
+                "f1": 0.1475618377133529,
+                "precision": 0.20736368009095282,
+                "recall": 0.13602693602693602,
+                "token": 22194
+            },
+            "hearing_year": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "token": 24386
+            },
+            "judgment_year": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "token": 24083
+            },
+            "case_type": {
+                "f1": 0.7767676767676768,
+                "precision": 0.7760942760942761,
+                "recall": 0.7777777777777778,
+                "token": 29295
+            },
+            "verdict": {
+                "f1": 0.6464646464646465,
+                "precision": 0.6464646464646465,
+                "recall": 0.6464646464646465,
+                "token": 20910
+            },
+            "counsel_for_applicant": {
+                "f1": 0.5149943310657596,
+                "precision": 0.5338203463203464,
+                "recall": 0.5071428571428571,
+                "token": 18250
+            },
+            "counsel_for_respondent": {
+                "f1": 0.8503729202524382,
+                "precision": 0.8596659364731652,
+                "recall": 0.8511044176706829,
+                "token": 22621
+            },
+            "nationality_for_applicant": {
+                "f1": 0.7564516129032258,
+                "precision": 0.7392473118279569,
+                "recall": 0.8225806451612904,
+                "token": 23206
+            },
+            "hearing_location": {
+                "f1": 0.07407407407407407,
+                "precision": 0.0707070707070707,
+                "recall": 0.08080808080808081,
+                "token": 29115
+            },
+            "evidence": {
+                "f1": 0.5252525252525253,
+                "precision": 0.5252525252525253,
+                "recall": 0.5252525252525253,
+                "token": 16521
+            },
+            "first_judge": {
+                "f1": 0.494949494949495,
+                "precision": 0.494949494949495,
+                "recall": 0.494949494949495,
+                "token": 23357
+            }
+        },
+        "4": {
+            "judge_name": {
+                "f1": 0.6572390572390565,
+                "precision": 0.5159932659932661,
+                "recall": 0.9595959595959596,
+                "token": 40514
+            },
+            "plaintiff": {
+                "f1": 0.19114959114959115,
+                "precision": 0.18333333333333332,
+                "recall": 0.22258297258297258,
+                "token": 28576
+            },
+            "defendant": {
+                "f1": 0.15347049134927923,
+                "precision": 0.19410774410774412,
+                "recall": 0.1463804713804714,
+                "token": 29682
+            },
+            "hearing_year": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "token": 31681
+            },
+            "judgment_year": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "token": 29828
+            },
+            "case_type": {
+                "f1": 0.8515151515151514,
+                "precision": 0.8501683501683502,
+                "recall": 0.8535353535353535,
+                "token": 38843
+            },
+            "verdict": {
+                "f1": 0.6767676767676768,
+                "precision": 0.6767676767676768,
+                "recall": 0.6767676767676768,
+                "token": 27802
+            },
+            "counsel_for_applicant": {
+                "f1": 0.6538832199546485,
+                "precision": 0.6707251082251081,
+                "recall": 0.6470238095238096,
+                "token": 25168
+            },
+            "counsel_for_respondent": {
+                "f1": 0.8427710843373493,
+                "precision": 0.8526378240233662,
+                "recall": 0.8435742971887552,
+                "token": 29477
+            },
+            "nationality_for_applicant": {
+                "f1": 0.7564516129032258,
+                "precision": 0.7392473118279569,
+                "recall": 0.8225806451612904,
+                "token": 30754
+            },
+            "hearing_location": {
+                "f1": 0.10774410774410774,
+                "precision": 0.10606060606060606,
+                "recall": 0.1111111111111111,
+                "token": 39353
+            },
+            "evidence": {
+                "f1": 0.6161616161616161,
+                "precision": 0.6161616161616161,
+                "recall": 0.6161616161616161,
+                "token": 23684
+            },
+            "first_judge": {
+                "f1": 0.5050505050505051,
+                "precision": 0.5050505050505051,
+                "recall": 0.5050505050505051,
+                "token": 31864
+            }
+        },
+        "5": {
+            "judge_name": {
+                "f1": 0.6387205387205381,
+                "precision": 0.4907407407407409,
+                "recall": 0.9595959595959596,
+                "token": 49212
+            },
+            "plaintiff": {
+                "f1": 0.22722462722462722,
+                "precision": 0.21632996632996632,
+                "recall": 0.26515151515151514,
+                "token": 35759
+            },
+            "defendant": {
+                "f1": 0.22934775662048387,
+                "precision": 0.26222481222481225,
+                "recall": 0.2256734006734007,
+                "token": 37516
+            },
+            "hearing_year": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "token": 39128
+            },
+            "judgment_year": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "token": 35481
+            },
+            "case_type": {
+                "f1": 0.7888888888888889,
+                "precision": 0.7861952861952861,
+                "recall": 0.7929292929292929,
+                "token": 45966
+            },
+            "verdict": {
+                "f1": 0.6666666666666666,
+                "precision": 0.6666666666666666,
+                "recall": 0.6666666666666666,
+                "token": 36153
+            },
+            "counsel_for_applicant": {
+                "f1": 0.7471371882086167,
+                "precision": 0.7659632034632035,
+                "recall": 0.7392857142857142,
+                "token": 32601
+            },
+            "counsel_for_respondent": {
+                "f1": 0.8629661503155479,
+                "precision": 0.8743975903614456,
+                "recall": 0.863453815261044,
+                "token": 36509
+            },
+            "nationality_for_applicant": {
+                "f1": 0.7564516129032258,
+                "precision": 0.7392473118279569,
+                "recall": 0.8225806451612904,
+                "token": 37948
+            },
+            "hearing_location": {
+                "f1": 0.11447811447811448,
+                "precision": 0.1111111111111111,
+                "recall": 0.12121212121212122,
+                "token": 47232
+            },
+            "evidence": {
+                "f1": 0.7272727272727273,
+                "precision": 0.7272727272727273,
+                "recall": 0.7272727272727273,
+                "token": 32113
+            },
+            "first_judge": {
+                "f1": 0.494949494949495,
+                "precision": 0.494949494949495,
+                "recall": 0.494949494949495,
+                "token": 39204
+            }
+        },
+        "6": {
+            "judge_name": {
+                "f1": 0.6572390572390566,
+                "precision": 0.5143097643097643,
+                "recall": 0.9696969696969697,
+                "token": 57902
+            },
+            "plaintiff": {
+                "f1": 0.21269841269841272,
+                "precision": 0.20353535353535357,
+                "recall": 0.24951899951899953,
+                "token": 43521
+            },
+            "defendant": {
+                "f1": 0.2436575209302482,
+                "precision": 0.27205387205387205,
+                "recall": 0.23846801346801347,
+                "token": 47037
+            },
+            "hearing_year": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "token": 46573
+            },
+            "judgment_year": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "token": 43037
+            },
+            "case_type": {
+                "f1": 0.8282828282828283,
+                "precision": 0.8282828282828283,
+                "recall": 0.8282828282828283,
+                "token": 54851
+            },
+            "verdict": {
+                "f1": 0.7070707070707071,
+                "precision": 0.7070707070707071,
+                "recall": 0.7070707070707071,
+                "token": 44675
+            },
+            "counsel_for_applicant": {
+                "f1": 0.7899943310657597,
+                "precision": 0.819534632034632,
+                "recall": 0.7797619047619049,
+                "token": 41139
+            },
+            "counsel_for_respondent": {
+                "f1": 0.8684452094090647,
+                "precision": 0.8789430449069003,
+                "recall": 0.8671686746987951,
+                "token": 43315
+            },
+            "nationality_for_applicant": {
+                "f1": 0.7661290322580645,
+                "precision": 0.7513440860215053,
+                "recall": 0.8225806451612904,
+                "token": 46926
+            },
+            "hearing_location": {
+                "f1": 0.14285714285714285,
+                "precision": 0.13945578231292519,
+                "recall": 0.15306122448979592,
+                "token": 56404
+            },
+            "evidence": {
+                "f1": 0.6464646464646465,
+                "precision": 0.6464646464646465,
+                "recall": 0.6464646464646465,
+                "token": 40950
+            },
+            "first_judge": {
+                "f1": 0.5050505050505051,
+                "precision": 0.5050505050505051,
+                "recall": 0.5050505050505051,
+                "token": 47042
+            }
+        },
+        "7": {
+            "judge_name": {
+                "f1": 0.66060606060606,
+                "precision": 0.5260942760942762,
+                "recall": 0.9494949494949495,
+                "token": 66741
+            },
+            "plaintiff": {
+                "f1": 0.2345839345839346,
+                "precision": 0.23215488215488217,
+                "recall": 0.27174122174122173,
+                "token": 52430
+            },
+            "defendant": {
+                "f1": 0.25223721284327344,
+                "precision": 0.3135441718775052,
+                "recall": 0.24545454545454545,
+                "token": 55971
+            },
+            "hearing_year": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "token": 53841
+            },
+            "judgment_year": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "token": 50628
+            },
+            "case_type": {
+                "f1": 0.9242424242424242,
+                "precision": 0.9242424242424242,
+                "recall": 0.9242424242424242,
+                "token": 64148
+            },
+            "verdict": {
+                "f1": 0.7171717171717171,
+                "precision": 0.7171717171717171,
+                "recall": 0.7171717171717171,
+                "token": 53370
+            },
+            "counsel_for_applicant": {
+                "f1": 0.7968395691609976,
+                "precision": 0.8052489177489177,
+                "recall": 0.7958333333333334,
+                "token": 48946
+            },
+            "counsel_for_respondent": {
+                "f1": 0.8523809523809521,
+                "precision": 0.8648868200073018,
+                "recall": 0.8501004016064257,
+                "token": 52398
+            },
+            "nationality_for_applicant": {
+                "f1": 0.8209677419354838,
+                "precision": 0.803763440860215,
+                "recall": 0.8870967741935484,
+                "token": 56341
+            },
+            "hearing_location": {
+                "f1": 0.1111111111111111,
+                "precision": 0.1111111111111111,
+                "recall": 0.1111111111111111,
+                "token": 65424
+            },
+            "evidence": {
+                "f1": 0.6666666666666666,
+                "precision": 0.6666666666666666,
+                "recall": 0.6666666666666666,
+                "token": 51211
+            },
+            "first_judge": {
+                "f1": 0.5353535353535354,
+                "precision": 0.5353535353535354,
+                "recall": 0.5353535353535354,
+                "token": 55101
+            }
+        },
+        "8": {
+            "judge_name": {
+                "f1": 0.6242424242424237,
+                "precision": 0.4882154882154882,
+                "recall": 0.9393939393939394,
+                "token": 75197
+            },
+            "plaintiff": {
+                "f1": 0.258032708032708,
+                "precision": 0.2604377104377104,
+                "recall": 0.3026214526214526,
+                "token": 60963
+            },
+            "defendant": {
+                "f1": 0.28374139299179174,
+                "precision": 0.31900571370268344,
+                "recall": 0.28358585858585855,
+                "token": 64761
+            },
+            "hearing_year": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "token": 61156
+            },
+            "judgment_year": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "token": 59617
+            },
+            "case_type": {
+                "f1": 0.9191919191919192,
+                "precision": 0.9191919191919192,
+                "recall": 0.9191919191919192,
+                "token": 73164
+            },
+            "verdict": {
+                "f1": 0.7171717171717171,
+                "precision": 0.7171717171717171,
+                "recall": 0.7171717171717171,
+                "token": 62868
+            },
+            "counsel_for_applicant": {
+                "f1": 0.8016594516594516,
+                "precision": 0.8160714285714284,
+                "recall": 0.7962797619047619,
+                "token": 57185
+            },
+            "counsel_for_respondent": {
+                "f1": 0.8555398062839593,
+                "precision": 0.8667790041284015,
+                "recall": 0.8531124497991969,
+                "token": 60984
+            },
+            "nationality_for_applicant": {
+                "f1": 0.8048387096774193,
+                "precision": 0.7876344086021505,
+                "recall": 0.8709677419354839,
+                "token": 65478
+            },
+            "hearing_location": {
+                "f1": 0.11616161616161616,
+                "precision": 0.11447811447811447,
+                "recall": 0.12121212121212122,
+                "token": 74485
+            },
+            "evidence": {
+                "f1": 0.7272727272727273,
+                "precision": 0.7272727272727273,
+                "recall": 0.7272727272727273,
+                "token": 59656
+            },
+            "first_judge": {
+                "f1": 0.494949494949495,
+                "precision": 0.494949494949495,
+                "recall": 0.494949494949495,
+                "token": 66238
+            }
+        },
+        "9": {
+            "judge_name": {
+                "f1": 0.6404040404040399,
+                "precision": 0.49747474747474757,
+                "recall": 0.9494949494949495,
+                "token": 84277
+            },
+            "plaintiff": {
+                "f1": 0.24807599807599803,
+                "precision": 0.2617845117845118,
+                "recall": 0.2925204425204425,
+                "token": 68799
+            },
+            "defendant": {
+                "f1": 0.33135629802296473,
+                "precision": 0.3806677890011224,
+                "recall": 0.3276936026936027,
+                "token": 73817
+            },
+            "hearing_year": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "token": 69987
+            },
+            "judgment_year": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "token": 68606
+            },
+            "case_type": {
+                "f1": 0.9292929292929293,
+                "precision": 0.9292929292929293,
+                "recall": 0.9292929292929293,
+                "token": 81546
+            },
+            "verdict": {
+                "f1": 0.7272727272727273,
+                "precision": 0.7272727272727273,
+                "recall": 0.7272727272727273,
+                "token": 70351
+            },
+            "counsel_for_applicant": {
+                "f1": 0.7920506081220368,
+                "precision": 0.8076298701298701,
+                "recall": 0.7861607142857144,
+                "token": 64444
+            },
+            "counsel_for_respondent": {
+                "f1": 0.8516351118760755,
+                "precision": 0.864558232931727,
+                "recall": 0.8488955823293174,
+                "token": 69730
+            },
+            "nationality_for_applicant": {
+                "f1": 0.8145161290322581,
+                "precision": 0.7997311827956989,
+                "recall": 0.8709677419354839,
+                "token": 74400
+            },
+            "hearing_location": {
+                "f1": 0.12626262626262627,
+                "precision": 0.12457912457912457,
+                "recall": 0.13131313131313133,
+                "token": 83313
+            },
+            "evidence": {
+                "f1": 0.7373737373737373,
+                "precision": 0.7373737373737373,
+                "recall": 0.7373737373737373,
+                "token": 67830
+            },
+            "first_judge": {
+                "f1": 0.5151515151515151,
+                "precision": 0.5151515151515151,
+                "recall": 0.5151515151515151,
+                "token": 74558
+            }
+        }
+    },
+
+    "nba": {
+        "1": {
+            "name": {
+                "f1": 0.34670329670329675,
+                "precision": 0.46794871794871795,
+                "recall": 0.2961538461538461,
+                "token": 2710
+            },
+            "birth_date": {
+                "f1": 0.20299145299145296,
+                "precision": 0.20940170940170935,
+                "recall": 0.20085470085470084,
+                "token": 2857
+            },
+            "nationality": {
+                "f1": 0.9642857142857143,
+                "precision": 0.9642857142857143,
+                "recall": 0.9642857142857143,
+                "token": 2528
+            },
+            "age": {
+                "f1": 0.07692307692307693,
+                "precision": 0.07692307692307693,
+                "recall": 0.07692307692307693,
+                "token": 2615
+            },
+            "team": {
+                "f1": 0.35714285714285715,
+                "precision": 0.42857142857142855,
+                "recall": 0.3333333333333333,
+                "token": 2725
+            },
+            "position": {
+                "f1": 0.6370370370370372,
+                "precision": 0.5833333333333334,
+                "recall": 0.7777777777777778,
+                "token": 3028
+            },
+            "draft_pick": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "token": 2506
+            },
+            "draft_year": {
+                "f1": 0.7272727272727273,
+                "precision": 0.7272727272727273,
+                "recall": 0.7272727272727273,
+                "token": 2583
+            },
+            "college": {
+                "f1": 0.7704761904761905,
+                "precision": 0.7666666666666667,
+                "recall": 0.8333333333333333,
+                "token": 2290
+            },
+            "NBA_championships": {
+                "f1": 0.2555555555555556,
+                "precision": 0.225,
+                "recall": 0.36666666666666664,
+                "token": 2472
+            },
+            "mvp_awards": {
+                "f1": 0.92,
+                "precision": 0.92,
+                "recall": 0.92,
+                "token": 2263
+            },
+            "olympic_gold_medals": {
+                "f1": 0.95,
+                "precision": 0.95,
+                "recall": 0.95,
+                "token": 2558
+            }
+        },
+        "2": {
+            "name": {
+                "f1": 0.48821733821733826,
+                "precision": 0.6504273504273503,
+                "recall": 0.42628205128205127,
+                "token": 5698
+            },
+            "birth_date": {
+                "f1": 0.29487179487179493,
+                "precision": 0.29487179487179493,
+                "recall": 0.29487179487179493,
+                "token": 5800
+            },
+            "nationality": {
+                "f1": 0.975,
+                "precision": 0.975,
+                "recall": 0.975,
+                "token": 5647
+            },
+            "age": {
+                "f1": 0.10256410256410256,
+                "precision": 0.10256410256410256,
+                "recall": 0.10256410256410256,
+                "token": 5449
+            },
+            "team": {
+                "f1": 0.2222222222222222,
+                "precision": 0.2222222222222222,
+                "recall": 0.2222222222222222,
+                "token": 5747
+            },
+            "position": {
+                "f1": 0.5666666666666667,
+                "precision": 0.515625,
+                "recall": 0.6875,
+                "token": 5712
+            },
+            "draft_pick": {
+                "f1": 0.9444444444444444,
+                "precision": 0.9444444444444444,
+                "recall": 0.9444444444444444,
+                "token": 5320
+            },
+            "draft_year": {
+                "f1": 0.9444444444444444,
+                "precision": 0.9444444444444444,
+                "recall": 0.9444444444444444,
+                "token": 5670
+            },
+            "college": {
+                "f1": 0.7100000000000002,
+                "precision": 0.7022222222222222,
+                "recall": 0.7611111111111112,
+                "token": 5106
+            },
+            "NBA_championships": {
+                "f1": 0.41521739130434776,
+                "precision": 0.3659420289855073,
+                "recall": 0.6086956521739131,
+                "token": 5678
+            },
+            "mvp_awards": {
+                "f1": 0.92,
+                "precision": 0.92,
+                "recall": 0.92,
+                "token": 5327
+            },
+            "olympic_gold_medals": {
+                "f1": 0.9666666666666667,
+                "precision": 0.9666666666666667,
+                "recall": 0.9666666666666667,
+                "token": 5389
+            }
+        },
+        "3": {
+            "name": {
+                "f1": 0.6009157509157509,
+                "precision": 0.7350427350427351,
+                "recall": 0.5497863247863248,
+                "token": 8474
+            },
+            "birth_date": {
+                "f1": 0.35042735042735057,
+                "precision": 0.35042735042735057,
+                "recall": 0.35042735042735057,
+                "token": 8254
+            },
+            "nationality": {
+                "f1": 0.9782608695652174,
+                "precision": 0.9782608695652174,
+                "recall": 0.9782608695652174,
+                "token": 8233
+            },
+            "age": {
+                "f1": 0.14102564102564102,
+                "precision": 0.14102564102564102,
+                "recall": 0.14102564102564102,
+                "token": 8553
+            },
+            "team": {
+                "f1": 0.31666666666666665,
+                "precision": 0.4,
+                "recall": 0.2833333333333333,
+                "token": 8447
+            },
+            "position": {
+                "f1": 0.653968253968254,
+                "precision": 0.6071428571428571,
+                "recall": 0.7619047619047619,
+                "token": 8554
+            },
+            "draft_pick": {
+                "f1": 0.9166666666666666,
+                "precision": 0.9166666666666666,
+                "recall": 0.9166666666666666,
+                "token": 8154
+            },
+            "draft_year": {
+                "f1": 0.9259259259259259,
+                "precision": 0.9259259259259259,
+                "recall": 0.9259259259259259,
+                "token": 8547
+            },
+            "college": {
+                "f1": 0.7583333333333333,
+                "precision": 0.7564814814814815,
+                "recall": 0.7916666666666667,
+                "token": 7786
+            },
+            "NBA_championships": {
+                "f1": 0.2811320754716983,
+                "precision": 0.1761006289308176,
+                "recall": 0.6981132075471698,
+                "token": 8499
+            },
+            "mvp_awards": {
+                "f1": 0.92,
+                "precision": 0.92,
+                "recall": 0.92,
+                "token": 8169
+            },
+            "olympic_gold_medals": {
+                "f1": 0.9666666666666667,
+                "precision": 0.9666666666666667,
+                "recall": 0.9666666666666667,
+                "token": 8529
+            }
+        },
+        "4": {
+            "name": {
+                "f1": 0.6874542124542123,
+                "precision": 0.7948717948717948,
+                "recall": 0.6467948717948718,
+                "token": 11204
+            },
+            "birth_date": {
+                "f1": 0.41452991452991467,
+                "precision": 0.41452991452991467,
+                "recall": 0.41452991452991467,
+                "token": 10653
+            },
+            "nationality": {
+                "f1": 0.9827586206896551,
+                "precision": 0.9827586206896551,
+                "recall": 0.9827586206896551,
+                "token": 10998
+            },
+            "age": {
+                "f1": 0.2692307692307692,
+                "precision": 0.2692307692307692,
+                "recall": 0.2692307692307692,
+                "token": 10952
+            },
+            "team": {
+                "f1": 0.5966666666666667,
+                "precision": 0.7,
+                "recall": 0.55,
+                "token": 11087
+            },
+            "position": {
+                "f1": 0.6694444444444444,
+                "precision": 0.6145833333333334,
+                "recall": 0.7916666666666666,
+                "token": 11054
+            },
+            "draft_pick": {
+                "f1": 0.92,
+                "precision": 0.92,
+                "recall": 0.92,
+                "token": 10787
+            },
+            "draft_year": {
+                "f1": 0.9,
+                "precision": 0.9,
+                "recall": 0.9,
+                "token": 11235
+            },
+            "college": {
+                "f1": 0.7887445887445886,
+                "precision": 0.7931818181818183,
+                "recall": 0.8143939393939394,
+                "token": 10251
+            },
+            "NBA_championships": {
+                "f1": 0.25849056603773596,
+                "precision": 0.16194968553459116,
+                "recall": 0.6415094339622641,
+                "token": 11060
+            },
+            "mvp_awards": {
+                "f1": 0.9066666666666666,
+                "precision": 0.9066666666666666,
+                "recall": 0.9066666666666666,
+                "token": 11122
+            },
+            "olympic_gold_medals": {
+                "f1": 0.95,
+                "precision": 0.95,
+                "recall": 0.95,
+                "token": 11191
+            }
+        },
+        "5": {
+            "name": {
+                "f1": 0.7199328449328447,
+                "precision": 0.8311965811965811,
+                "recall": 0.6788461538461539,
+                "token": 13671
+            },
+            "birth_date": {
+                "f1": 0.4658119658119658,
+                "precision": 0.4658119658119658,
+                "recall": 0.4658119658119658,
+                "token": 13354
+            },
+            "nationality": {
+                "f1": 0.984375,
+                "precision": 0.984375,
+                "recall": 0.984375,
+                "token": 13711
+            },
+            "age": {
+                "f1": 0.308974358974359,
+                "precision": 0.3083670715249663,
+                "recall": 0.32051282051282054,
+                "token": 13696
+            },
+            "team": {
+                "f1": 0.6515151515151515,
+                "precision": 0.7272727272727273,
+                "recall": 0.6212121212121212,
+                "token": 13679
+            },
+            "position": {
+                "f1": 0.6333333333333333,
+                "precision": 0.5769230769230769,
+                "recall": 0.7692307692307693,
+                "token": 13826
+            },
+            "draft_pick": {
+                "f1": 0.8620689655172413,
+                "precision": 0.8620689655172413,
+                "recall": 0.8620689655172413,
+                "token": 13050
+            },
+            "draft_year": {
+                "f1": 0.9117647058823529,
+                "precision": 0.9117647058823529,
+                "recall": 0.9117647058823529,
+                "token": 13773
+            },
+            "college": {
+                "f1": 0.7907029478458047,
+                "precision": 0.8163265306122449,
+                "recall": 0.815354713313897,
+                "token": 13130
+            },
+            "NBA_championships": {
+                "f1": 0.2792452830188681,
+                "precision": 0.17452830188679244,
+                "recall": 0.6981132075471698,
+                "token": 13478
+            },
+            "mvp_awards": {
+                "f1": 0.9066666666666666,
+                "precision": 0.9066666666666666,
+                "recall": 0.9066666666666666,
+                "token": 13574
+            },
+            "olympic_gold_medals": {
+                "f1": 0.95,
+                "precision": 0.95,
+                "recall": 0.95,
+                "token": 14020
+            }
+        },
+        "6": {
+            "name": {
+                "f1": 0.7426434676434674,
+                "precision": 0.8504273504273504,
+                "recall": 0.7064102564102566,
+                "token": 16251
+            },
+            "birth_date": {
+                "f1": 0.5085470085470084,
+                "precision": 0.5085470085470084,
+                "recall": 0.5085470085470084,
+                "token": 15649
+            },
+            "nationality": {
+                "f1": 0.9850746268656716,
+                "precision": 0.9850746268656716,
+                "recall": 0.9850746268656716,
+                "token": 15913
+            },
+            "age": {
+                "f1": 0.28205128205128205,
+                "precision": 0.28205128205128205,
+                "recall": 0.28205128205128205,
+                "token": 15920
+            },
+            "team": {
+                "f1": 0.6805555555555557,
+                "precision": 0.75,
+                "recall": 0.6527777777777778,
+                "token": 16217
+            },
+            "position": {
+                "f1": 0.6357142857142858,
+                "precision": 0.5714285714285714,
+                "recall": 0.7857142857142857,
+                "token": 16470
+            },
+            "draft_pick": {
+                "f1": 0.9,
+                "precision": 0.9,
+                "recall": 0.9,
+                "token": 16135
+            },
+            "draft_year": {
+                "f1": 0.918918918918919,
+                "precision": 0.918918918918919,
+                "recall": 0.918918918918919,
+                "token": 16108
+            },
+            "college": {
+                "f1": 0.8038787878787877,
+                "precision": 0.8333333333333333,
+                "recall": 0.8147619047619047,
+                "token": 15360
+            },
+            "NBA_championships": {
+                "f1": 0.27169811320754733,
+                "precision": 0.16981132075471697,
+                "recall": 0.6792452830188679,
+                "token": 15587
+            },
+            "mvp_awards": {
+                "f1": 0.9066666666666666,
+                "precision": 0.9066666666666666,
+                "recall": 0.9066666666666666,
+                "token": 16237
+            },
+            "olympic_gold_medals": {
+                "f1": 0.95,
+                "precision": 0.95,
+                "recall": 0.95,
+                "token": 16723
+            }
+        },
+        "7": {
+            "name": {
+                "f1": 0.76025641025641,
+                "precision": 0.8653846153846154,
+                "recall": 0.7252136752136753,
+                "token": 18326
+            },
+            "birth_date": {
+                "f1": 0.5427350427350427,
+                "precision": 0.5427350427350427,
+                "recall": 0.5427350427350427,
+                "token": 17901
+            },
+            "nationality": {
+                "f1": 0.9855072463768116,
+                "precision": 0.9855072463768116,
+                "recall": 0.9855072463768116,
+                "token": 18106
+            },
+            "age": {
+                "f1": 0.3717948717948718,
+                "precision": 0.3717948717948718,
+                "recall": 0.3717948717948718,
+                "token": 18336
+            },
+            "team": {
+                "f1": 0.630952380952381,
+                "precision": 0.7142857142857143,
+                "recall": 0.5952380952380951,
+                "token": 18661
+            },
+            "position": {
+                "f1": 0.6279569892473119,
+                "precision": 0.5645161290322581,
+                "recall": 0.7741935483870968,
+                "token": 18378
+            },
+            "draft_pick": {
+                "f1": 0.9090909090909091,
+                "precision": 0.9090909090909091,
+                "recall": 0.9090909090909091,
+                "token": 18413
+            },
+            "draft_year": {
+                "f1": 0.9473684210526315,
+                "precision": 0.9473684210526315,
+                "recall": 0.9473684210526315,
+                "token": 18504
+            },
+            "college": {
+                "f1": 0.8404040404040403,
+                "precision": 0.8431372549019608,
+                "recall": 0.8706816059757236,
+                "token": 17609
+            },
+            "NBA_championships": {
+                "f1": 0.3192307692307693,
+                "precision": 0.22115384615384615,
+                "recall": 0.7115384615384616,
+                "token": 17747
+            },
+            "mvp_awards": {
+                "f1": 0.9066666666666666,
+                "precision": 0.9066666666666666,
+                "recall": 0.9066666666666666,
+                "token": 18650
+            },
+            "olympic_gold_medals": {
+                "f1": 0.95,
+                "precision": 0.95,
+                "recall": 0.95,
+                "token": 19058
+            }
+        },
+        "8": {
+            "name": {
+                "f1": 0.7528388278388276,
+                "precision": 0.8547008547008546,
+                "recall": 0.7226495726495727,
+                "token": 20646
+            },
+            "birth_date": {
+                "f1": 0.5555555555555554,
+                "precision": 0.5555555555555554,
+                "recall": 0.5555555555555554,
+                "token": 19809
+            },
+            "nationality": {
+                "f1": 0.9857142857142858,
+                "precision": 0.9857142857142858,
+                "recall": 0.9857142857142858,
+                "token": 20456
+            },
+            "age": {
+                "f1": 0.38461538461538464,
+                "precision": 0.38461538461538464,
+                "recall": 0.38461538461538464,
+                "token": 20422
+            },
+            "team": {
+                "f1": 0.5729166666666667,
+                "precision": 0.625,
+                "recall": 0.5520833333333333,
+                "token": 20960
+            },
+            "position": {
+                "f1": 0.611764705882353,
+                "precision": 0.5441176470588235,
+                "recall": 0.7647058823529411,
+                "token": 20628
+            },
+            "draft_pick": {
+                "f1": 0.8787878787878788,
+                "precision": 0.8787878787878788,
+                "recall": 0.8787878787878788,
+                "token": 20822
+            },
+            "draft_year": {
+                "f1": 0.9285714285714286,
+                "precision": 0.9285714285714286,
+                "recall": 0.9285714285714286,
+                "token": 20959
+            },
+            "college": {
+                "f1": 0.8361248852157942,
+                "precision": 0.8545454545454545,
+                "recall": 0.8567099567099568,
+                "token": 19522
+            },
+            "NBA_championships": {
+                "f1": 0.27169811320754733,
+                "precision": 0.16981132075471697,
+                "recall": 0.6792452830188679,
+                "token": 20169
+            },
+            "mvp_awards": {
+                "f1": 0.9066666666666666,
+                "precision": 0.9066666666666666,
+                "recall": 0.9066666666666666,
+                "token": 20787
+            },
+            "olympic_gold_medals": {
+                "f1": 0.95,
+                "precision": 0.95,
+                "recall": 0.95,
+                "token": 21168
+            }
+        },
+        "9": {
+            "name": {
+                "f1": 0.762240537240537,
+                "precision": 0.8683760683760686,
+                "recall": 0.7335470085470087,
+                "token": 23077
+            },
+            "birth_date": {
+                "f1": 0.581196581196581,
+                "precision": 0.581196581196581,
+                "recall": 0.581196581196581,
+                "token": 22186
+            },
+            "nationality": {
+                "f1": 0.958904109589041,
+                "precision": 0.958904109589041,
+                "recall": 0.958904109589041,
+                "token": 22562
+            },
+            "age": {
+                "f1": 0.22230601642366346,
+                "precision": 0.2203525641025641,
+                "recall": 0.24358974358974358,
+                "token": 22693
+            },
+            "team": {
+                "f1": 0.6444444444444444,
+                "precision": 0.6666666666666666,
+                "recall": 0.6333333333333333,
+                "token": 23375
+            },
+            "position": {
+                "f1": 0.5657142857142857,
+                "precision": 0.5,
+                "recall": 0.7142857142857143,
+                "token": 22463
+            },
+            "draft_pick": {
+                "f1": 0.8,
+                "precision": 0.8,
+                "recall": 0.8,
+                "token": 22945
+            },
+            "draft_year": {
+                "f1": 0.9318181818181818,
+                "precision": 0.9318181818181818,
+                "recall": 0.9318181818181818,
+                "token": 23139
+            },
+            "college": {
+                "f1": 0.834356092250829,
+                "precision": 0.8508771929824561,
+                "recall": 0.858813700918964,
+                "token": 21747
+            },
+            "NBA_championships": {
+                "f1": 0.3400000000000001,
+                "precision": 0.265,
+                "recall": 0.64,
+                "token": 22449
+            },
+            "mvp_awards": {
+                "f1": 0.9066666666666666,
+                "precision": 0.9066666666666666,
+                "recall": 0.9066666666666666,
+                "token": 23370
+            },
+            "olympic_gold_medals": {
+                "f1": 0.95,
+                "precision": 0.95,
+                "recall": 0.95,
+                "token": 23358
+            }
+        }
+    },
+
+    "wikiart": {
+        "1": {
+            "Name": {
+                "f1": 0.6938492063492063,
+                "precision": 0.7791666666666667,
+                "recall": 0.6875,
+                "token": 3488
+            },
+            "Birth_Date": {
+                "f1": 0.6111111111111112,
+                "precision": 0.6111111111111112,
+                "recall": 0.6111111111111112,
+                "token": 3227
+            },
+            "Death_Date": {
+                "f1": 0.9,
+                "precision": 0.9,
+                "recall": 0.9,
+                "token": 3565
+            },
+            "Age": {
+                "f1": 0.7916666666666666,
+                "precision": 0.7916666666666666,
+                "recall": 0.7916666666666666,
+                "token": 3642
+            },
+            "Birth_Country": {
+                "f1": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "token": 3376
+            },
+            "Death_Country": {
+                "f1": 0.875,
+                "precision": 0.875,
+                "recall": 0.875,
+                "token": 3370
+            },
+            "Birth_City": {
+                "f1": 0.8666666666666667,
+                "precision": 0.8518518518518517,
+                "recall": 0.8888888888888888,
+                "token": 3416
+            },
+            "Death_City": {
+                "f1": 0.5666666666666668,
+                "precision": 0.49999999999999994,
+                "recall": 0.6666666666666666,
+                "token": 3064
+            },
+            "Field": {
+                "f1": 0.49122807017543857,
+                "precision": 0.49122807017543857,
+                "recall": 0.49122807017543857,
+                "token": 3203
+            },
+            "Genre": {
+                "f1": 0.0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "token": 3397
+            },
+            "Marriage": {
+                "f1": 0.3,
+                "precision": 0.26666666666666666,
+                "recall": 0.4,
+                "token": 2765
+            },
+            "Art_Movement": {
+                "f1": 0.25256410256410255,
+                "precision": 0.23397435897435898,
+                "recall": 0.28846153846153844,
+                "token": 2846
+            }
+        },
+        "2": {
+            "Name": {
+                "f1": 0.8888198757763975,
+                "precision": 0.9391304347826087,
+                "recall": 0.8804347826086958,
+                "token": 7737
+            },
+            "Birth_Date": {
+                "f1": 0.7560975609756098,
+                "precision": 0.7560975609756098,
+                "recall": 0.7560975609756098,
+                "token": 6740
+            },
+            "Death_Date": {
+                "f1": 0.8571428571428571,
+                "precision": 0.8571428571428571,
+                "recall": 0.8571428571428571,
+                "token": 7271
+            },
+            "Age": {
+                "f1": 0.9230769230769231,
+                "precision": 0.9230769230769231,
+                "recall": 0.9230769230769231,
+                "token": 7523
+            },
+            "Birth_Country": {
+                "f1": 0.8551724137931035,
+                "precision": 0.8505747126436781,
+                "recall": 0.8620689655172413,
+                "token": 7425
+            },
+            "Death_Country": {
+                "f1": 0.8823529411764706,
+                "precision": 0.8823529411764706,
+                "recall": 0.8823529411764706,
+                "token": 6871
+            },
+            "Birth_City": {
+                "f1": 0.8866666666666667,
+                "precision": 0.8777777777777779,
+                "recall": 0.9,
+                "token": 6658
+            },
+            "Death_City": {
+                "f1": 0.6880952380952381,
+                "precision": 0.6547619047619048,
+                "recall": 0.75,
+                "token": 6750
+            },
+            "Field": {
+                "f1": 0.45294117647058824,
+                "precision": 0.45294117647058824,
+                "recall": 0.45294117647058824,
+                "token": 7378
+            },
+            "Genre": {
+                "f1": 0.12666666666666665,
+                "precision": 0.11333333333333333,
+                "recall": 0.16,
+                "token": 6784
+            },
+            "Marriage": {
+                "f1": 0.32962962962962966,
+                "precision": 0.2592592592592593,
+                "recall": 0.5555555555555556,
+                "token": 6363
+            },
+            "Art_Movement": {
+                "f1": 0.2841666666666667,
+                "precision": 0.2669642857142857,
+                "recall": 0.315,
+                "token": 6761
+            }
+        },
+        "3": {
+            "Name": {
+                "f1": 0.867958030669895,
+                "precision": 0.914406779661017,
+                "recall": 0.8629943502824858,
+                "token": 11805
+            },
+            "Birth_Date": {
+                "f1": 0.82,
+                "precision": 0.82,
+                "recall": 0.82,
+                "token": 10391
+            },
+            "Death_Date": {
+                "f1": 0.8888888888888888,
+                "precision": 0.8888888888888888,
+                "recall": 0.8888888888888888,
+                "token": 10582
+            },
+            "Age": {
+                "f1": 0.9411764705882353,
+                "precision": 0.9411764705882353,
+                "recall": 0.9411764705882353,
+                "token": 10782
+            },
+            "Birth_Country": {
+                "f1": 0.8809523809523809,
+                "precision": 0.8809523809523809,
+                "recall": 0.8809523809523809,
+                "token": 11682
+            },
+            "Death_Country": {
+                "f1": 0.95,
+                "precision": 0.95,
+                "recall": 0.95,
+                "token": 10537
+            },
+            "Birth_City": {
+                "f1": 0.8772727272727273,
+                "precision": 0.8712121212121211,
+                "recall": 0.8863636363636364,
+                "token": 10330
+            },
+            "Death_City": {
+                "f1": 0.7452380952380953,
+                "precision": 0.7023809523809523,
+                "recall": 0.8214285714285714,
+                "token": 10797
+            },
+            "Field": {
+                "f1": 0.45698924731182794,
+                "precision": 0.45698924731182794,
+                "recall": 0.45698924731182794,
+                "token": 11425
+            },
+            "Genre": {
+                "f1": 0.25406162464986,
+                "precision": 0.22794117647058823,
+                "recall": 0.3137254901960785,
+                "token": 11079
+            },
+            "Marriage": {
+                "f1": 0.2065934065934066,
+                "precision": 0.16025641025641027,
+                "recall": 0.38461538461538464,
+                "token": 10263
+            },
+            "Art_Movement": {
+                "f1": 0.3014814814814815,
+                "precision": 0.28174603174603174,
+                "recall": 0.33555555555555555,
+                "token": 10785
+            }
+        },
+        "4": {
+            "Name": {
+                "f1": 0.9185257664709721,
+                "precision": 0.9273972602739724,
+                "recall": 0.9223744292237445,
+                "token": 16708
+            },
+            "Birth_Date": {
+                "f1": 0.7936507936507936,
+                "precision": 0.7936507936507936,
+                "recall": 0.7936507936507936,
+                "token": 14648
+            },
+            "Death_Date": {
+                "f1": 0.8909090909090909,
+                "precision": 0.8909090909090909,
+                "recall": 0.8909090909090909,
+                "token": 14145
+            },
+            "Age": {
+                "f1": 0.9107142857142857,
+                "precision": 0.9107142857142857,
+                "recall": 0.9107142857142857,
+                "token": 14215
+            },
+            "Birth_Country": {
+                "f1": 0.9166666666666666,
+                "precision": 0.9166666666666666,
+                "recall": 0.9166666666666666,
+                "token": 16353
+            },
+            "Death_Country": {
+                "f1": 0.9130434782608695,
+                "precision": 0.9130434782608695,
+                "recall": 0.9130434782608695,
+                "token": 14478
+            },
+            "Birth_City": {
+                "f1": 0.863963963963964,
+                "precision": 0.8558558558558558,
+                "recall": 0.8783783783783784,
+                "token": 14745
+            },
+            "Death_City": {
+                "f1": 0.6983333333333334,
+                "precision": 0.6833333333333333,
+                "recall": 0.725,
+                "token": 14664
+            },
+            "Field": {
+                "f1": 0.45408163265306123,
+                "precision": 0.45408163265306123,
+                "recall": 0.45408163265306123,
+                "token": 15444
+            },
+            "Genre": {
+                "f1": 0.2729761904761905,
+                "precision": 0.25416666666666665,
+                "recall": 0.32500000000000007,
+                "token": 15709
+            },
+            "Marriage": {
+                "f1": 0.21473214285714287,
+                "precision": 0.15580357142857143,
+                "recall": 0.5,
+                "token": 13939
+            },
+            "Art_Movement": {
+                "f1": 0.34647435897435896,
+                "precision": 0.3309981684981685,
+                "recall": 0.3737179487179487,
+                "token": 15511
+            }
+        },
+        "5": {
+            "Name": {
+                "f1": 0.9014005602240894,
+                "precision": 0.9307843137254901,
+                "recall": 0.9009803921568627,
+                "token": 20519
+            },
+            "Birth_Date": {
+                "f1": 0.7916666666666666,
+                "precision": 0.7916666666666666,
+                "recall": 0.7916666666666666,
+                "token": 18735
+            },
+            "Death_Date": {
+                "f1": 0.9242424242424242,
+                "precision": 0.9242424242424242,
+                "recall": 0.9242424242424242,
+                "token": 17750
+            },
+            "Age": {
+                "f1": 0.8636363636363636,
+                "precision": 0.8636363636363636,
+                "recall": 0.8636363636363636,
+                "token": 18284
+            },
+            "Birth_Country": {
+                "f1": 0.9362745098039216,
+                "precision": 0.9338235294117647,
+                "recall": 0.9411764705882353,
+                "token": 21253
+            },
+            "Death_Country": {
+                "f1": 0.9259259259259259,
+                "precision": 0.9259259259259259,
+                "recall": 0.9259259259259259,
+                "token": 19022
+            },
+            "Birth_City": {
+                "f1": 0.7762820512820513,
+                "precision": 0.7692307692307693,
+                "recall": 0.7884615384615384,
+                "token": 19167
+            },
+            "Death_City": {
+                "f1": 0.787719298245614,
+                "precision": 0.7719298245614036,
+                "recall": 0.8157894736842105,
+                "token": 18820
+            },
+            "Field": {
+                "f1": 0.44387755102040816,
+                "precision": 0.44387755102040816,
+                "recall": 0.44387755102040816,
+                "token": 20572
+            },
+            "Genre": {
+                "f1": 0.3216619981325864,
+                "precision": 0.30392156862745096,
+                "recall": 0.35620915032679734,
+                "token": 21273
+            },
+            "Marriage": {
+                "f1": 0.2452380952380952,
+                "precision": 0.17321289821289818,
+                "recall": 0.6111111111111112,
+                "token": 18259
+            },
+            "Art_Movement": {
+                "f1": 0.47388888888888886,
+                "precision": 0.4646428571428571,
+                "recall": 0.49194444444444446,
+                "token": 20243
+            }
+        },
+        "6": {
+            "Name": {
+                "f1": 0.8890726817042605,
+                "precision": 0.9161403508771929,
+                "recall": 0.8921052631578947,
+                "token": 25010
+            },
+            "Birth_Date": {
+                "f1": 0.7530864197530864,
+                "precision": 0.7530864197530864,
+                "recall": 0.7530864197530864,
+                "token": 23117
+            },
+            "Death_Date": {
+                "f1": 0.9027777777777778,
+                "precision": 0.9027777777777778,
+                "recall": 0.9027777777777778,
+                "token": 21885
+            },
+            "Age": {
+                "f1": 0.8378378378378378,
+                "precision": 0.8378378378378378,
+                "recall": 0.8378378378378378,
+                "token": 22386
+            },
+            "Birth_Country": {
+                "f1": 0.9451219512195121,
+                "precision": 0.9512195121951219,
+                "recall": 0.9430894308943091,
+                "token": 25931
+            },
+            "Death_Country": {
+                "f1": 0.8235294117647058,
+                "precision": 0.8235294117647058,
+                "recall": 0.8235294117647058,
+                "token": 22899
+            },
+            "Birth_City": {
+                "f1": 0.7632034632034631,
+                "precision": 0.7676767676767677,
+                "recall": 0.7636363636363637,
+                "token": 23712
+            },
+            "Death_City": {
+                "f1": 0.732,
+                "precision": 0.7266666666666667,
+                "recall": 0.74,
+                "token": 22820
+            },
+            "Field": {
+                "f1": 0.4393939393939394,
+                "precision": 0.4393939393939394,
+                "recall": 0.4393939393939394,
+                "token": 25401
+            },
+            "Genre": {
+                "f1": 0.30899470899470893,
+                "precision": 0.28858024691358025,
+                "recall": 0.3549382716049383,
+                "token": 26700
+            },
+            "Marriage": {
+                "f1": 0.1912736386420597,
+                "precision": 0.11819321029847345,
+                "recall": 0.5789473684210527,
+                "token": 22866
+            },
+            "Art_Movement": {
+                "f1": 0.49145299145299143,
+                "precision": 0.4781318681318681,
+                "recall": 0.5169230769230769,
+                "token": 25488
+            }
+        },
+        "7": {
+            "Name": {
+                "f1": 0.8956390977443607,
+                "precision": 0.9152631578947369,
+                "recall": 0.9035087719298245,
+                "token": 30597
+            },
+            "Birth_Date": {
+                "f1": 0.7738095238095238,
+                "precision": 0.7738095238095238,
+                "recall": 0.7738095238095238,
+                "token": 27713
+            },
+            "Death_Date": {
+                "f1": 0.875,
+                "precision": 0.875,
+                "recall": 0.875,
+                "token": 26507
+            },
+            "Age": {
+                "f1": 0.8375,
+                "precision": 0.8375,
+                "recall": 0.8375,
+                "token": 26650
+            },
+            "Birth_Country": {
+                "f1": 0.9012345679012346,
+                "precision": 0.9012345679012346,
+                "recall": 0.9012345679012346,
+                "token": 31459
+            },
+            "Death_Country": {
+                "f1": 0.9,
+                "precision": 0.9,
+                "recall": 0.9,
+                "token": 27479
+            },
+            "Birth_City": {
+                "f1": 0.7965884861407249,
+                "precision": 0.8009950248756219,
+                "recall": 0.7970149253731343,
+                "token": 28142
+            },
+            "Death_City": {
+                "f1": 0.852,
+                "precision": 0.8466666666666667,
+                "recall": 0.86,
+                "token": 27013
+            },
+            "Field": {
+                "f1": 0.45454545454545453,
+                "precision": 0.45454545454545453,
+                "recall": 0.45454545454545453,
+                "token": 30859
+            },
+            "Genre": {
+                "f1": 0.31528822055137845,
+                "precision": 0.30701754385964913,
+                "recall": 0.3333333333333333,
+                "token": 32054
+            },
+            "Marriage": {
+                "f1": 0.19863945578231293,
+                "precision": 0.12248677248677248,
+                "recall": 0.5714285714285714,
+                "token": 26875
+            },
+            "Art_Movement": {
+                "f1": 0.5109374999999999,
+                "precision": 0.5017485119047618,
+                "recall": 0.52890625,
+                "token": 31198
+            }
+        },
+        "8": {
+            "Name": {
+                "f1": 0.8924482924482924,
+                "precision": 0.8968013468013469,
+                "recall": 0.9074074074074072,
+                "token": 35623
+            },
+            "Birth_Date": {
+                "f1": 0.7857142857142857,
+                "precision": 0.7857142857142857,
+                "recall": 0.7857142857142857,
+                "token": 32013
+            },
+            "Death_Date": {
+                "f1": 0.8641975308641975,
+                "precision": 0.8641975308641975,
+                "recall": 0.8641975308641975,
+                "token": 31713
+            },
+            "Age": {
+                "f1": 0.8571428571428571,
+                "precision": 0.8571428571428571,
+                "recall": 0.8571428571428571,
+                "token": 31371
+            },
+            "Birth_Country": {
+                "f1": 0.9204545454545454,
+                "precision": 0.9204545454545454,
+                "recall": 0.9204545454545454,
+                "token": 36956
+            },
+            "Death_Country": {
+                "f1": 0.8666666666666667,
+                "precision": 0.8666666666666667,
+                "recall": 0.8666666666666667,
+                "token": 32027
+            },
+            "Birth_City": {
+                "f1": 0.8107142857142856,
+                "precision": 0.8148148148148149,
+                "recall": 0.8111111111111111,
+                "token": 33800
+            },
+            "Death_City": {
+                "f1": 0.7888888888888889,
+                "precision": 0.7839506172839507,
+                "recall": 0.7962962962962963,
+                "token": 31891
+            },
+            "Field": {
+                "f1": 0.4494949494949495,
+                "precision": 0.4494949494949495,
+                "recall": 0.4494949494949495,
+                "token": 36146
+            },
+            "Genre": {
+                "f1": 0.3019652305366591,
+                "precision": 0.2857142857142857,
+                "recall": 0.34391534391534395,
+                "token": 37631
+            },
+            "Marriage": {
+                "f1": 0.20210272818968472,
+                "precision": 0.13876811594202898,
+                "recall": 0.5652173913043478,
+                "token": 32291
+            },
+            "Art_Movement": {
+                "f1": 0.5288557213930348,
+                "precision": 0.5215707178393745,
+                "recall": 0.5462686567164179,
+                "token": 36169
+            }
+        },
+        "9": {
+            "Name": {
+                "f1": 0.9029633596643906,
+                "precision": 0.89790950744559,
+                "recall": 0.9261168384879723,
+                "token": 40582
+            },
+            "Birth_Date": {
+                "f1": 0.7931034482758621,
+                "precision": 0.7931034482758621,
+                "recall": 0.7931034482758621,
+                "token": 37216
+            },
+            "Death_Date": {
+                "f1": 0.8809523809523809,
+                "precision": 0.8809523809523809,
+                "recall": 0.8809523809523809,
+                "token": 36872
+            },
+            "Age": {
+                "f1": 0.8372093023255814,
+                "precision": 0.8372093023255814,
+                "recall": 0.8372093023255814,
+                "token": 36228
+            },
+            "Birth_Country": {
+                "f1": 0.9247311827956989,
+                "precision": 0.9247311827956989,
+                "recall": 0.9247311827956989,
+                "token": 41670
+            },
+            "Death_Country": {
+                "f1": 0.8863636363636364,
+                "precision": 0.8863636363636364,
+                "recall": 0.8863636363636364,
+                "token": 37377
+            },
+            "Birth_City": {
+                "f1": 0.8049523809523809,
+                "precision": 0.808888888888889,
+                "recall": 0.8053333333333333,
+                "token": 38565
+            },
+            "Death_City": {
+                "f1": 0.812,
+                "precision": 0.8066666666666668,
+                "recall": 0.82,
+                "token": 36781
+            },
+            "Field": {
+                "f1": 0.4528619528619528,
+                "precision": 0.4528619528619528,
+                "recall": 0.4528619528619528,
+                "token": 41338
+            },
+            "Genre": {
+                "f1": 0.3819672131147541,
+                "precision": 0.37431693989071035,
+                "recall": 0.40437158469945356,
+                "token": 42495
+            },
+            "Marriage": {
+                "f1": 0.17151822536437925,
+                "precision": 0.10360195360195361,
+                "recall": 0.5769230769230769,
+                "token": 37656
+            },
+            "Art_Movement": {
+                "f1": 0.5560655031243266,
+                "precision": 0.5420868347338935,
+                "recall": 0.5856209150326798,
+                "token": 42740
+            }
+        }
+    }
+}
