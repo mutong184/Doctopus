@@ -89,53 +89,24 @@ To install the required packages, you can create a conda environment:
 
 ```sh
 conda create --name DOCTOPUS python=3.9
-```To fulfill the potential great value of unstructured documents, it is
-critical to extract structural data (e.g., attributes) from them, which
-can benefit various applications such as analytical SQL queries
-and decision-making. Multiple strategies, such as pre-trained lan-
-guage models (PLMs), can be employed for this task. However,
-these methods often struggle to achieve high-quality results, partic-
-ularly when dealing with attribute extraction that requires intricate
-reasoning or semantic comprehension. Recently, large language
-models (LLMs) have proven to be effective in extracting attributes
-but incur substantial costs caused by token consumption, making
-them impractical for large-scale document set.
-To best trade off quality and cost, we present Doctopus, a sys-
-tem designed for accurate attribute extraction from unstructured
-documents with a user-specified cost constraint. Overall, Doctopus
-combines LLMs with non-LLM strategies to achieve a good trade-
-off. First, the system employs an index-based approach to efficiently
-identify and process only relevant text chunks, thereby reducing the
-LLM cost. Afterwards, it further estimates the quality of multiple
-strategies for each attribute. Finally, based on the cost and esti-
-mated quality, Doctopus dynamically selects the optimal strategies
-through budget-aware optimization. We have built a comprehensive
-benchmark including 4 document sets with various characteristics,
-as well as the ground truth values that are manually labeled us-
-ing 1000 human hours. Extensive experiments on the benchmark
-have demonstrated that compared with state-of-the-art baselines,
-Doctopus can improve the quality by 11% given the same cost
-constraint.
 
 then use pip to install -r requirements.txt
 
-```sh
 pip install -r requirements.txt
 ```
 
 The following commands will quickly get you started with our optimization code.
 ```sh
-python test.py
+python main.py
 ```
 
 
-And we have provided a complete demo process to help you become familiar with our code.
-Before that, please manually modify the BERT path in the get_embed function within the files document_index.py and segment_index.py, as shown in the picture.
+And we have provided a complete demo process to help you train the exist model 
 
 <img src="imgs/robert.jpg" width="50px" width="20" > 
 
 ```sh
-python demo.py
+python tain.py
 ```
 
 ### <img src="imgs/run.png"  > Run DOCTOPUS
@@ -146,25 +117,25 @@ You first need to fill in the following custom variables in `main.py` and provid
 ```python
 #main.py
 OPENAI_KEY = 'Your OPENAI KEY'
-sql_query = "Your query"
-sql_query_description = "Your query description"
-file_lake_dir = "Your directory of the data lake"      
+schema = "attributes which you want to abtract "
+file_lake_dir = "Your directory of the dataset"      
 result_dir = "Your directory of the result "            
 file_candidate_dir = "Your directory of the candidate files"  # Your file_candidate_dir directory must contain two subfolders: /candi and /key. These subfolders can be empty.
 ```
 ```python
 #example filling
 OPENAI_KEY = 'sk-xxxxxxxxxxxxxxxxxxxxxxxxxx'
-sql_query = "SELECT name, age, team FROM NBA_palyer WHERE age < 40"
-sql_query_description = 
+schema = " name, age, team  birth_country"
+sehcel_description = 
 """
 name : name of NBA player
 age  : NBA player's age
 team : NBA player's team
+birth_country: the birth country of the NBA player
 """
-file_lake_dir = "./datalake/"            # the directory of the data lake
+file_lake_dir = "./NBAplayer/"            # the directory of the data lake
 result_dir = "./result/"                 # the directory of the result
-file_candidate_dir = "./candidate_file/" # the directory of the candidate files
+file_candidate_dir = "./candidate/" # the directory of the candidate files
 ```
 
 **Step2: run main.py**
@@ -175,30 +146,6 @@ python main.py
 
 **Step3: result**
 The `output.csv` file is located in your custom folder.
-
-## <img src="imgs/join.png" alt="Description" width="42" height="42"> JOIN Operation
-
-Before using these two programs, you need to first run `main.py` to obtain the candidate files for the required queries. Then, you can modify the code blocks in these two .ipynb files according to your needs to get the desired version.
-For example:
-```python
-OPENAI_KEY = 'Your API key'
-sql_query = "Your SQL query"
-datalake_dir = "Your datalake dir"
-result_dir = "Your result dir"  
-##############################################
-# use main.py to generate the candidate files#
-##############################################
-candidate_file_dir_A ="Your candidate file dir"
-candidate_file_dir_B ="Your candidate file dir"
-if not os.path.exists(datalake_dir):
-    os.makedirs(datalake_dir)
-if not os.path.exists(candidate_file_dir_A):
-    os.makedirs(candidate_file_dir_A)
-if not os.path.exists(candidate_file_dir_B):
-    os.makedirs(candidate_file_dir_B)
-if not os.path.exists(result_dir):
-    os.makedirs(result_dir)
-```
 
 <span id="-datasets"></span>
 ##  <img src="imgs/dataset.png" alt="Description" width="42" height="42">  Datasets
@@ -226,7 +173,7 @@ attributes.
 The dataset can be found at the following URL : 
 
 ```
-https://drive.google.com/*****************************************
+https://drive.google.com/
 ```
 Markdown All in One
 
@@ -234,7 +181,7 @@ Markdown All in One
 Our experimental results are as follows:
 <br>
 <div align="center">
-<img src="imgs/main_f1.png" width="1000px">
+<img src="imgs/main.jpg" width="1000px">
 </div>
 <br>
 <br>
