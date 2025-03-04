@@ -73,8 +73,8 @@ exist model
 └── util.py                   # the functions of exist model
 
 ```
-
-The full version of the technical report is [here](./Full_version.pdf). 
+<!-- 
+The full version of the technical report is [here](./Full_version.pdf).  -->
 
 <br>
 <span id="-getstart"></span>
@@ -147,8 +147,9 @@ python main.py
 **Step3: result**
 The `output.csv` file is located in your custom folder.
 
-<span id="-datasets"></span>
-##  <img src="imgs/dataset.png" alt="Description" width="42" height="42">  Datasets
+## Datasets
+<!-- <span id="-datasets"></span> -->
+<!-- ##  <img src="imgs/dataset.png" alt="Description" width="42" height="42">   -->
 ### Wikiart
 Wikiart includes 1,000 documents describing the biographies of
 various artists. Each document contains 714 tokens on average, and
@@ -177,7 +178,7 @@ https://drive.google.com/
 ```
 Markdown All in One
 
-## <img src="imgs/result.png" alt="Description" width="42" height="42"> Result
+##  Result
 Our experimental results are as follows:
 <br>
 <div align="center">
