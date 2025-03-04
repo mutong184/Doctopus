@@ -48,20 +48,30 @@ constraint.
 
 ```
 
-.
-├── imgs                      # Directory for storing images or visualizations
-├── join                      # Directory for join algorithms
-│   ├── mult_table_join.ipynb # Notebook for multi-table join
-│   └── two_table_join.ipynb  # Notebook for two-table join
-├── cal-sel.py                # Function to calculate selectivity of one filter based on sampled data
-├── llm.py                    # Functions related to large language models (LLMs)
-├── query_optimization.py     # Executes query optimization and runs the query for each document
-├── util_order.py             # Utilities for parsing and sorting filters
-├── segment_index.py          # Build segment index
-├── document_index.py         # Build document index
+text2table
+├── Utils                     # lib for functions
+│   ├── groupbag.py           # groupbag algorithms
+│   ├── metic.py              # the metic of textF1
+│   ├── similiar_chunk.py     # the most similiar chunks
+|   └── prompt.py             # the prompt for LLM 
+├── cluster                   # Directory for cluster algorithms
+│   ├── k_means.py            # k-means algorithms
+│   ├── text2emb.py           # embedding for text
+|   └──tuple2emb.py           # embedding for tuple
+├── var.py                    # confg information for datasets
 ├── main.py                   # Main script controlling the system's overall flow
 ├── README.md                 # Project overview and instructions
 └── requirements.txt          # Python dependencies for the project
+
+
+train distilbert model
+exist model 
+├── eval.py                   #  evaluate the result of exist model 
+├── eval_LLM.py               #  eval the result of LLM
+├── predict.py                # the output of exist mmodel 
+├── tain.py                   # train exist model 
+└── util.py                   # the functions of exist model
+
 ```
 
 The full version of the technical report is [here](./Full_version.pdf). 
