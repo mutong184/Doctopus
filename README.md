@@ -43,7 +43,7 @@ Doctopus can improve the quality by 11% given the same cost
 constraint.
 <span id="-struct"></span>
 
-## <img src="/Users/lijiajun/text-table/imgs/folder1.jpg"  width="42" height="42"> Folder Structure
+## <img src="./imgs/folder1.jpg"  width="42" height="42"> Folder Structure
 
 
 ```
@@ -109,7 +109,7 @@ And we have provided a complete demo process to help you train the exist model
 python tain.py
 ```
 
-### <img src="imgs/run.png"  > Run DOCTOPUS
+### Run DOCTOPUS
 
 **Step1: fill up your information**
 
@@ -145,6 +145,7 @@ python main.py
 ```
 
 **Step3: result**
+
 The `output.csv` file is located in your custom folder.
 
 ## Datasets
@@ -185,8 +186,4 @@ Our experimental results are as follows:
 <img src="imgs/main.jpg" width="1000px">
 </div>
 <br>
-<br>
-<div align="center">
-<img src="imgs/main_cost.png" width="1000px">
-</div>
-<br>
+
