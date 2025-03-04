@@ -1,5 +1,5 @@
 <div align= "center">
-    <h1>octopus: Budget-aware Structural Table Extraction from Unstructured Documents</h1>
+    <h1>Doctopus: Budget-aware Structural Table Extraction from Unstructured Documents</h1>
 </div>
 <p align="center">
   <a href="#-struct">Folder Structure</a> •
@@ -48,7 +48,7 @@ constraint.
 
 ```
 
-text2table
+Doctopus
 ├── Utils                     # lib for functions
 │   ├── groupbag.py           # groupbag algorithms
 │   ├── metic.py              # the metic of textF1
