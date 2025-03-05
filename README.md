@@ -17,27 +17,21 @@
 To fulfill the potential great value of unstructured documents, it is
 critical to extract structural data (e.g., attributes) from them, which
 can benefit various applications such as analytical SQL queries
-and decision-making. Multiple strategies, such as pre-trained lan-
-guage models (PLMs), can be employed for this task. However,
-these methods often struggle to achieve high-quality results, partic-
-ularly when dealing with attribute extraction that requires intricate
+and decision-making. Multiple strategies, such as pre-trained language models (PLMs), can be employed for this task. However,
+these methods often struggle to achieve high-quality results, particularly when dealing with attribute extraction that requires intricate
 reasoning or semantic comprehension. Recently, large language
 models (LLMs) have proven to be effective in extracting attributes
 but incur substantial costs caused by token consumption, making
 them impractical for large-scale document set.
-To best trade off quality and cost, we present Doctopus, a sys-
-tem designed for accurate attribute extraction from unstructured
+To best trade off quality and cost, we present Doctopus, a system designed for accurate attribute extraction from unstructured
 documents with a user-specified cost constraint. Overall, Doctopus
-combines LLMs with non-LLM strategies to achieve a good trade-
-off. First, the system employs an index-based approach to efficiently
+combines LLMs with non-LLM strategies to achieve a good tradeoff. First, the system employs an index-based approach to efficiently
 identify and process only relevant text chunks, thereby reducing the
 LLM cost. Afterwards, it further estimates the quality of multiple
-strategies for each attribute. Finally, based on the cost and esti-
-mated quality, Doctopus dynamically selects the optimal strategies
+strategies for each attribute. Finally, based on the cost and estimated quality, Doctopus dynamically selects the optimal strategies
 through budget-aware optimization. We have built a comprehensive
 benchmark including 4 document sets with various characteristics,
-as well as the ground truth values that are manually labeled us-
-ing 1000 human hours. Extensive experiments on the benchmark
+as well as the ground truth values that are manually labeled using 1000 human hours. Extensive experiments on the benchmark
 have demonstrated that compared with state-of-the-art baselines,
 Doctopus can improve the quality by 11% given the same cost
 constraint.
@@ -113,7 +107,7 @@ python tain.py
 
 **Step1: fill up your information**
 
-You first need to fill in the following custom variables in `main.py` and provide the path to your custom data lake documents.
+You first need to fill in the following custom variables in `main.py` and provide the path to your custom dataset documents.
 ```python
 #main.py
 OPENAI_KEY = 'Your OPENAI KEY'
@@ -156,28 +150,17 @@ Wikiart includes 1,000 documents describing the biographies of
 various artists. Each document contains 714 tokens on average, and
 8 attributes.
 ### Financial
-Financial includes 1,500 documents that provide details about var-
-ious companies. On average, each document comprises 258 tokens
+Financial includes 1,500 documents that provide details about various companies. On average, each document comprises 258 tokens
 and 8 attributes.
 ### Sports
 Sports consists of 100 Wikipedia pages about NBA players. We
 transform each webpage into a document that includes only text.
-Each document typically includes 1,645 tokens and provides infor-
-mation on 10 attributes.
+Each document typically includes 1,645 tokens and provides information on 10 attributes.
 ### Law
 Law includes 3,000 case reports from the Federal Court of Australia
-covering the years 2006 to 2009, from which we sample 600 doc-
-uments. On average, each document contains 5,926 tokens and 9
+covering the years 2006 to 2009, from which we sample 600 documents. On average, each document contains 5,926 tokens and 9
 attributes.
 
-
-### Dataset URL
-The dataset can be found at the following URL : 
-
-```
-https://drive.google.com/
-```
-Markdown All in One
 
 ##  Result
 Our experimental results are as follows:
