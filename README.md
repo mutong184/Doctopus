@@ -37,7 +37,7 @@ Doctopus can improve the quality by 11% given the same cost
 constraint.
 <span id="-struct"></span>
 
-## <img src="/imgs/folder1.jpg"  width="42" height="42"> Folder Structure
+## Folder Structure
 
 
 ```
