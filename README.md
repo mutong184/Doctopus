@@ -162,9 +162,7 @@ Law includes 3,000 case reports from the Federal Court of Australia
 covering the years 2006 to 2009, from which we sample 600 documents. On average, each document contains 5,926 tokens and 9
 attributes.
 
-### Dataset URL
-The dataset can be found at the following URL : 
-
+### Dataset address
 [access the dataset](https://drive.google.com/drive/folders/1_hgDv0DSp1B7pBR2lRYaRohHrpc2lpAb?usp=sharing)
 
 
