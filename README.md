@@ -143,9 +143,7 @@ python main.py
 The `output.csv` file is located in your custom folder.
 
 ## Datasets
-'''
-https://drive.google.com/drive/folders/1_hgDv0DSp1B7pBR2lRYaRohHrpc2lpAb?usp=sharing
-'''
+
 <!-- <span id="-datasets"></span> -->
 <!-- ##  <img src="imgs/dataset.png" alt="Description" width="42" height="42">   -->
 ### Wikiart
@@ -164,6 +162,11 @@ Law includes 3,000 case reports from the Federal Court of Australia
 covering the years 2006 to 2009, from which we sample 600 documents. On average, each document contains 5,926 tokens and 9
 attributes.
 
+### Dataset URL
+The dataset can be found at the following URL : 
+'''
+https://drive.google.com/drive/folders/1_hgDv0DSp1B7pBR2lRYaRohHrpc2lpAb?usp=sharing
+'''
 
 ##  Result
 Our experimental results are as follows:
