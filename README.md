@@ -44,7 +44,7 @@ constraint.
 
 Doctopus
 ├── Utils                     # lib for functions
-│   ├── groupbag.py           # groupbag algorithms
+│   ├── Group_Knapsack_Algorithm.py           # groupbag algorithms
 │   ├── metic.py              # the metic of textF1
 │   ├── similiar_chunk.py     # the most similiar chunks
 |   └── prompt.py             # the prompt for LLM 
