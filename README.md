@@ -180,7 +180,7 @@ Our experimental results are as follows:
 The average time consumed to process each document:
 <br>
 <div align="center">
-<img src="imgs/exp-efficiency.pdf" width="1000px">
+<img src="imgs/exp-efficiency.jpg" width="1000px">
 </div>
 <br>
 
