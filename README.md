@@ -254,7 +254,7 @@ Return the result in JSON format, for example: {"Attribute1": "Value1", "Attribu
 If an attribute cannot be found, set its value to "".
 ```
 
-These prompts are available in the GitHub repository under the `Utils/prompt.py` file for further details (Section ~\ref{exp:setting}).
+These prompts are available in the GitHub repository under the `Utils/prompt.py` file for further details.
 
 ##  Result
 Our experimental results are as follows:
