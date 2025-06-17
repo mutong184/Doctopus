@@ -547,7 +547,7 @@ def create_dynamic_class(attribute_list: List[str]) -> type:
 def extract_attributes_from_text(text, attributes_obj,llm_prompt,model):
 
     client = openai.OpenAI(base_url="https://api.gptsapi.net/v1",
-        api_key="sk-Hwv0998366e81e4a9a4cd0cd7f38890f3f7417d34134xAbD"
+        api_key=""
         )
 
     response = client.beta.chat.completions.parse(
