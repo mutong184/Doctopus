@@ -165,100 +165,96 @@ attributes.
 ### Dataset address
 [access the dataset](https://drive.google.com/drive/folders/1_hgDv0DSp1B7pBR2lRYaRohHrpc2lpAb?usp=sharing)
 
-✨ Prompts for Large Language Models
-We utilize Large Language Models (LLMs) for several key tasks in Doctopus. Below are the specific prompts used for validation set construction, reference generation, and attribute value extraction.
+## Prompts for Large Language Models
 
-1. Validation Set Construction
-This prompt is used to construct a validation set and its corresponding ground truth. The LLM scans documents to extract attribute values and their supporting text.
+The following prompts are used by **Doctopus** for various tasks in attribute extraction and reference generation. These prompts are also available in the `prompt.py` file in the GitHub repository for full details.
 
-&lt;div style="background-color: #ffffff; border: 1px solid #000000; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+### Validation Set Construction
+
+We use large language models (LLMs) to construct the validation set (including 10% of the documents from the original dataset) and the corresponding ground truth. Specifically, we use LLMs to scan the entire document in the validation set to extract attribute values and the corresponding references. The extracted results are used for quality estimation. The prompt used is as follows:
+
+```plaintext
 You are an assistant proficient in text comprehension, tasked with extracting specified attribute values from the following text and indicating the supporting chunks for these values.
 
 Task Description:
+- Extract the value of each attribute from the text.
+- For each attribute, return a dictionary containing:
+  - "Value": The corresponding value of the attribute found in the text.
+  - "Supporting Chunks": The text that explicitly mentions this value.
+  - If there are multiple chunks, return them as a list. Be sure to include all relevant chunks, including those that indirectly infer the attribute value and do not include any invalid characters or formats.
 
-Extract the value of each attribute from the text.
-For each attribute, return a dictionary containing:
-"Value": The corresponding value of the attribute found in the text.
-"Supporting Chunks": The text that explicitly mentions this value.
-If there are multiple chunks, return them as a list. Be sure to include all relevant chunks, including those that indirectly infer the attribute value and do not include any invalid characters or formats.
 Requirements:
-
-If an attribute is not explicitly mentioned in the text, return:
-"Value": ""
-"Supporting Chunks": ""
-Ensure you match and extract attributes in the order provided.
-&lt;hr>
+- If an attribute is not explicitly mentioned in the text, return:
+  - "Value": ""
+  - "Supporting Chunks": ""
+- Ensure you match and extract attributes in the order provided. If an attribute value corresponds to multiple chunks, return them as a list.
 
 Here are the input text and attribute list:
-
 Text: {text}
 Attribute List: {attributes}
 
-&lt;hr>
-
 Please extract the attribute values and return the results in JSON format.
+```
 
-&lt;/div>
+### Reference Generation
 
-2. Reference Generation
-To enhance the diversity of references, we use a two-step process to generate synthetic references for attribute values.
+To enhance the diversity of references, we employ LLMs to directly produce references in a two-step generation process:
 
-&lt;div style="background-color: #ffffff; border: 1px solid #000000; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+1. **Attribute Value Generation**: First, we prompt LLMs to generate a set of potential candidate values for the target attribute (e.g., generating "Portrait," "Landscape," and "Abstract" as potential values for the attribute Genre).
+2. **Reference Generation**: For each candidate value generated in the first step, we further instruct LLMs to synthesize multiple references where the value can be extracted. For example, for the value "Portrait," LLMs might produce sentences like "His early works primarily featured oil-based portrait paintings."
+
+The prompt for this step is as follows:
+
+```plaintext
 For a given attribute: {attribute}, do the following:
 
 1. Generate {h} potential values for the attribute {attribute}.
+   - For example, if the attribute is "name", generate {h} possible names like: John, Mike, etc.
 
-For example, if the attribute is "name", generate {h} possible names like: John, Mike, etc.
 2. For each potential attribute value generated in step 1, create {h} natural sentences (references) where the attribute value can be extracted.
+   - The references should mimic realistic usage of the attribute value by humans.
+   - For instance, if the attribute value is "John", generate sentences like: "John is 11 years old", "My friend John likes to play basketball", etc.
 
-The references should mimic realistic usage of the attribute value by humans.
-For instance, if the attribute value is "John", generate sentences like: "John is 11 years old", "My friend John likes to play basketball", etc.
 3. Output the results in a JSON format:
-
-The keys are the generated attribute values.
-The corresponding values are lists containing the {h} generated references for each attribute value.
-&lt;hr>
+   - The keys are the generated attribute values.
+   - The corresponding values are lists containing the {h} generated references for each attribute value.
 
 Here's an example of the desired JSON output format for the "name" attribute:
 
-&lt;pre>&lt;code>{
-"John": [
-"John is 11 years old",
-"My friend John likes to play basketball",
-...
-],
-"Mike": [
-"I met Mike at the party last weekend",
-"Mike works as a software engineer at Google",
-...
-],
-...
+{
+  "John": [
+    "John is 11 years old",
+    "My friend John likes to play basketball",
+    ...
+  ],
+  "Mike": [
+    "I met Mike at the party last weekend",
+    "Mike works as a software engineer at Google",
+    ...
+  ],
+  ...
 }
-&lt;/code>&lt;/pre>
+```
 
-&lt;/div>
+### Attribute Value Extraction
 
-3. Attribute Value Extraction
-This prompt is used to extract attribute values from text chunks during both the quality estimation and the final extraction phases.
+We use LLMs to extract values from text chunks in both quality estimation and budget-aware accuracy optimization. The prompt used is as follows:
 
-&lt;div style="background-color: #ffffff; border: 1px solid #000000; padding: 15px; border-radius: 5px;">
+```plaintext
 The content of the file is as follows:
 
 {file_content}
-
-&lt;hr>
 
 Please extract the following attributes from the above content:
 
 {attributes_list}
 
-&lt;hr>
-
 Return the result in JSON format, for example: {"Attribute1": "Value1", "Attribute2": "Value2", ...}.
 
 If an attribute cannot be found, set its value to "".
+```
 
-&lt;/div>
+These prompts are available in the GitHub repository under the `Utils/prompt.py` file for further details (Section ~\ref{exp:setting}).
 
 ##  Result
 Our experimental results are as follows:
