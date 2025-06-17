@@ -27,7 +27,7 @@ def predict_LLm(sample,model_name):
 
     # 设置你的 OpenAI API 密钥
     client = openai.OpenAI(base_url="https://api.gptsapi.net/v1",
-                            api_key="sk-Hwv0998366e81e4a9a4cd0cd7f38890f3f7417d34134xAbD")
+                            api_key="")
     
     # 格式化 prompt 内容，替换其中的 {sentence} 和 {attribute}
     formatted_prompt = prompt.format(input_sentence=sentence, input_attribute=attribute)
