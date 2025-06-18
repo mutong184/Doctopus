@@ -63,7 +63,7 @@ PLM
 ├── eval.py                   #  evaluate the result of exist model 
 ├── eval_LLM.py               #  eval the result of LLM
 ├── predict.py                # the output of exist mmodel 
-├── tain.py                   # train exist model 
+├── train.py                   # train exist model 
 └── util.py                   # the functions of exist model
 
 preprocess    
@@ -104,7 +104,7 @@ And we have provided a complete demo process to help you train the exist model
 <img src="imgs/robert.jpg" width="50px" width="20" > 
 
 ```sh
-python tain.py
+python train.py
 ```
 
 ### Run DOCTOPUS
